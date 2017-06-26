@@ -1,0 +1,156 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:3:5-62
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:4:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.1] /home/douglimar/.android/build-cache/442211483d9b9a517e4da5e1cf583b0f367ab41e/output/AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.1] /home/douglimar/.android/build-cache/442211483d9b9a517e4da5e1cf583b0f367ab41e/output/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:8:22-76
+application
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:10:5-43:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/douglimar/.android/build-cache/aa7bb6713040146920b644f7e96cf159d4e27331/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] /home/douglimar/.android/build-cache/65295d43130ea3a24c8d9fb192b589ea3d4ea862/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/douglimar/.android/build-cache/a25fac9dcdb33a3e2019a9aa70f6717f32828365/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/douglimar/.android/build-cache/b1ebe53ffe5fefa6ff21c023d176fe86b0362085/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/douglimar/.android/build-cache/afa9f115b7f7e882052057b30a39d8f60875df1d/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.1] /home/douglimar/.android/build-cache/442211483d9b9a517e4da5e1cf583b0f367ab41e/output/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.1] /home/douglimar/.android/build-cache/2401a57ac9e15866d44a6416f1587f251793f936/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.0.1] /home/douglimar/.android/build-cache/ea9c4c951235813113b10bd830669a9886b6a976/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.1] /home/douglimar/.android/build-cache/0cc6d867f8a231deaac8880eef79b5e60b8c8fe1/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.1] /home/douglimar/.android/build-cache/54747508062ebb2cdb6de1f650b87cc40ed8b0dc/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.1] /home/douglimar/.android/build-cache/81273615b8e03f3c830961c6652230065fb5ab7f/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.1] /home/douglimar/.android/build-cache/f099c2ee7b7720cc4ed94edeb2e8f3287815cea7/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] /home/douglimar/.android/build-cache/a1f33acddf7d2ffd7f90678027ce31af0fc16787/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/douglimar/.android/build-cache/151d1eba20ab0e4c51cd0580ef9a82f5add7b01f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/douglimar/.android/build-cache/c46f698d9a00b189137cfbb56ee1054b9a9ea277/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/douglimar/.android/build-cache/aa46857fe45c76c8c5f09fc288aeec6bc62dde12/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/douglimar/.android/build-cache/259994c8d01100d62b6d8654484fd8f8ddb75c68/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/douglimar/.android/build-cache/ab33fca70921949642378617c90da4a1c56e0e1d/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:15:9-35
+	android:roundIcon
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:14:9-54
+	android:allowBackup
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:16:9-40
+activity#proverbiododia.ddmsoftware.br.proverbiododia_v5.MainActivity
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:17:9-26:20
+	android:label
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:19:13-45
+	android:theme
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:20:13-56
+	android:name
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:18:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:24:27-74
+meta-data#com.google.android.gms.version
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:32:9-34:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.1] /home/douglimar/.android/build-cache/f099c2ee7b7720cc4ed94edeb2e8f3287815cea7/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:34:13-66
+	android:name
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:33:13-58
+activity#com.google.android.gms.ads.AdActivity
+ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:38:9-41:64
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.1] /home/douglimar/.android/build-cache/442211483d9b9a517e4da5e1cf583b0f367ab41e/output/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:40:13-122
+	android:theme
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:41:13-61
+	android:name
+		ADDED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml:39:13-65
+uses-sdk
+INJECTED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/douglimar/.android/build-cache/aa7bb6713040146920b644f7e96cf159d4e27331/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] /home/douglimar/.android/build-cache/65295d43130ea3a24c8d9fb192b589ea3d4ea862/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/douglimar/.android/build-cache/a25fac9dcdb33a3e2019a9aa70f6717f32828365/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/douglimar/.android/build-cache/b1ebe53ffe5fefa6ff21c023d176fe86b0362085/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/douglimar/.android/build-cache/c963a6aa6c1af9a39c6f0934711c732597c33b44/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /home/douglimar/.android/build-cache/afa9f115b7f7e882052057b30a39d8f60875df1d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:11.0.1] /home/douglimar/.android/build-cache/7065c1735ed055945eab1f76fbf4f691eb9da3ff/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.1] /home/douglimar/.android/build-cache/442211483d9b9a517e4da5e1cf583b0f367ab41e/output/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.1] /home/douglimar/.android/build-cache/2401a57ac9e15866d44a6416f1587f251793f936/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.1] /home/douglimar/.android/build-cache/ea9c4c951235813113b10bd830669a9886b6a976/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.1] /home/douglimar/.android/build-cache/0cc6d867f8a231deaac8880eef79b5e60b8c8fe1/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.1] /home/douglimar/.android/build-cache/54747508062ebb2cdb6de1f650b87cc40ed8b0dc/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.1] /home/douglimar/.android/build-cache/81273615b8e03f3c830961c6652230065fb5ab7f/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.1] /home/douglimar/.android/build-cache/f099c2ee7b7720cc4ed94edeb2e8f3287815cea7/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] /home/douglimar/.android/build-cache/a1f33acddf7d2ffd7f90678027ce31af0fc16787/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/douglimar/.android/build-cache/151d1eba20ab0e4c51cd0580ef9a82f5add7b01f/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/douglimar/.android/build-cache/c46f698d9a00b189137cfbb56ee1054b9a9ea277/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/douglimar/.android/build-cache/aa46857fe45c76c8c5f09fc288aeec6bc62dde12/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/douglimar/.android/build-cache/259994c8d01100d62b6d8654484fd8f8ddb75c68/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /home/douglimar/.android/build-cache/ab33fca70921949642378617c90da4a1c56e0e1d/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /home/douglimar/.android/build-cache/65295d43130ea3a24c8d9fb192b589ea3d4ea862/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml
+		INJECTED from /home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /home/douglimar/.android/build-cache/65295d43130ea3a24c8d9fb192b589ea3d4ea862/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/douglimar/.android/build-cache/a25fac9dcdb33a3e2019a9aa70f6717f32828365/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/douglimar/.android/build-cache/b1ebe53ffe5fefa6ff21c023d176fe86b0362085/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/douglimar/.android/build-cache/c963a6aa6c1af9a39c6f0934711c732597c33b44/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/douglimar/.android/build-cache/afa9f115b7f7e882052057b30a39d8f60875df1d/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/douglimar/.android/build-cache/a1f33acddf7d2ffd7f90678027ce31af0fc16787/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/douglimar/.android/build-cache/151d1eba20ab0e4c51cd0580ef9a82f5add7b01f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/douglimar/.android/build-cache/c46f698d9a00b189137cfbb56ee1054b9a9ea277/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/douglimar/.android/build-cache/aa46857fe45c76c8c5f09fc288aeec6bc62dde12/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/douglimar/.android/build-cache/259994c8d01100d62b6d8654484fd8f8ddb75c68/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/douglimar/.android/build-cache/ab33fca70921949642378617c90da4a1c56e0e1d/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /home/douglimar/.android/build-cache/65295d43130ea3a24c8d9fb192b589ea3d4ea862/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /home/douglimar/.android/build-cache/65295d43130ea3a24c8d9fb192b589ea3d4ea862/output/AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.1] /home/douglimar/.android/build-cache/54747508062ebb2cdb6de1f650b87cc40ed8b0dc/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] /home/douglimar/.android/build-cache/54747508062ebb2cdb6de1f650b87cc40ed8b0dc/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] /home/douglimar/.android/build-cache/54747508062ebb2cdb6de1f650b87cc40ed8b0dc/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] /home/douglimar/.android/build-cache/54747508062ebb2cdb6de1f650b87cc40ed8b0dc/output/AndroidManifest.xml:19:19-85

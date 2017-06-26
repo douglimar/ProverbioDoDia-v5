@@ -1,0 +1,7 @@
+#Sun Jun 25 22:16:31 BRT 2017
+base.0=/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3d08de6f382bc729cdcb2f637f7ba470d9cf57cb
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d20292e556e43fb1f0d178cd810edf2404eae68d/classes.dex
+base.1=/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d20292e556e43fb1f0d178cd810edf2404eae68d
+file.0=/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3d08de6f382bc729cdcb2f637f7ba470d9cf57cb/classes.dex
