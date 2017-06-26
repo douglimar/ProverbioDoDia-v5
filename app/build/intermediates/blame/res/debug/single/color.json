@@ -56,12 +56,12 @@
         "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/home/douglimar/.android/build-cache/65295d43130ea3a24c8d9fb192b589ea3d4ea862/output/res/color/design_error.xml"
-    },
-    {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/color/green.xml",
         "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/color/green.xml"
+    },
+    {
+        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/home/douglimar/.android/build-cache/65295d43130ea3a24c8d9fb192b589ea3d4ea862/output/res/color/design_error.xml"
     },
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",

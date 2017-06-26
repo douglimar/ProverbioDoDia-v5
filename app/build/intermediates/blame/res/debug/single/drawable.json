@@ -32,12 +32,12 @@
         "source": "/home/douglimar/.android/build-cache/54747508062ebb2cdb6de1f650b87cc40ed8b0dc/output/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
         "source": "/home/douglimar/.android/build-cache/54747508062ebb2cdb6de1f650b87cc40ed8b0dc/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
@@ -108,12 +108,12 @@
         "source": "/home/douglimar/.android/build-cache/54747508062ebb2cdb6de1f650b87cc40ed8b0dc/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
         "source": "/home/douglimar/.android/build-cache/54747508062ebb2cdb6de1f650b87cc40ed8b0dc/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/einstein.png",
@@ -232,12 +232,12 @@
         "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",

@@ -188,9 +188,6 @@ public class MainActivity extends AppCompatActivity {
         else
             paint.setTextSize(iTextSize);
 
-        //System.out.println("Tamanho do Texto:" + iTextSize);
-
-
         //Toast.makeText(getBaseContext(), "OLHA O TAMANHO DO MEU TEXTO: " + iTextSize, Toast.LENGTH_SHORT).show();
         // text shadow
         //paint.setShadowLayer(1f, 0f, 1f, Color.WHITE);
@@ -434,7 +431,7 @@ public class MainActivity extends AppCompatActivity {
         Random random = new Random();
 
         int i = random.nextInt(lstQuote.size());
-        System.out.println(lstQuote.get(i).author); //prints element i
+        //System.out.println(lstQuote.get(i).author); //prints element i
         //Toast.makeText(getBaseContext(),lstQuote.get(i).author,Toast.LENGTH_SHORT).show();
 
         if (lstQuote.get(i).author.equals("NOME_DO_AUTOR_A_SER_FILTRADO")) {
@@ -444,7 +441,7 @@ public class MainActivity extends AppCompatActivity {
                 if (lstQuote.get(x).author.equals("NOME_DO_AUTOR_A_SER_FILTRADO"))
                     lstQuotesPerAuthor.add(lstQuote.get(x));
 
-                System.out.println(lstQuote.get(x)); //prints element i
+                //System.out.println(lstQuote.get(x)); //prints element i
                 b_filtered = true;
 
             }
