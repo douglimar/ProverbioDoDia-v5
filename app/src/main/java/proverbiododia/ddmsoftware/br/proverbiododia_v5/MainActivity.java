@@ -39,6 +39,7 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -71,7 +72,20 @@ public class MainActivity extends AppCompatActivity {
         Quote quotes = new Quote();
 
         lstQuotesPerAuthor = new ArrayList<>();
-        lstQuote = quotes.initializeData();
+
+        String language = Locale.getDefault().getLanguage();
+
+        switch (language) {
+            case "pt": lstQuote = quotes.initializePortugueseData();
+                break;
+            case "es": lstQuote = quotes.initializeSpanishData();
+                break;
+            default: lstQuote = quotes.initializeEnglishData();
+                break;
+
+        }
+
+
 
         initializeActivity();
         loadNewQuote();

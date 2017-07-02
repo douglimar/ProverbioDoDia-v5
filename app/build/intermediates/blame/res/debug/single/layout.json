@@ -12,12 +12,12 @@
         "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/layout/notification_template_lines_media.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/layout/notification_template_part_time.xml"
-    },
-    {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
         "source": "/home/douglimar/.android/build-cache/65295d43130ea3a24c8d9fb192b589ea3d4ea862/output/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
@@ -28,12 +28,12 @@
         "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/layout/content_main.xml",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/layout/content_main.xml"
-    },
-    {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/layout/content_main.xml",
+        "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/layout/content_main.xml"
     },
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",

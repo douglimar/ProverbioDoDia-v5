@@ -96,12 +96,12 @@
         "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
-        "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/googleg_standard_color_18.png",
         "source": "/home/douglimar/.android/build-cache/54747508062ebb2cdb6de1f650b87cc40ed8b0dc/output/res/drawable-mdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
