@@ -415,7 +415,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        Button button = (Button) findViewById(R.id.btnQuote);
+        Button button = (Button) findViewById(R.id.btnQuote1);
 
         imageView = (ImageView) findViewById(R.id.imageView);
 
@@ -432,7 +432,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Create a AdView
         // Load Advertisement Banner
-        AdView mAdView = (AdView) findViewById(R.id.adViewMainActivity);
+        AdView mAdView = (AdView) findViewById(R.id.adViewMainActivity1);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 

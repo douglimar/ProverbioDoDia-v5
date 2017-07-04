@@ -1,8 +1,59 @@
 <resources>
-    <string name="app_name">ProverbioDoDia-v5</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Provérbio do dia</string>
+    <string name="action_settings">Config.</string>
     <string name="banner_ad_unit_id" translatable="false"></string>
     <string name="banner_ad_unit_TESTE" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="btnQuote">Novo Provérbio</string>
+    <string name="title_activity_navigation_main2">Provérbio do dia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Maslow">Abraham Maslow</string>
+    <string name="Smith">Adam Smith</string>
+    <string name="Eistein">Albert Einstein</string>
+    <string name="Kardec">Allan Kardec</string>
+    <string name="Aristeles">Aristóteles</string>
+    <string name="Marley">Bob Marley</string>
+    <string name="Caplin">Charles Chaplin</string>
+    <string name="Dickens">Charles Dickens</string>
+    <string name="Lispector">Clarice Lispector</string>
+    <string name="Confúcio">Confúcio</string>
+    <string name="Pessoa">Fernando Pessoa</string>
+    <string name="Freud">Sigmund Freud</string>
+    <string name="Nietzsche">Friedrich Nietzsche</string>
+    <string name="Ford">Henry Ford</string>
+    <string name="Marx">Karl Marx</string>
+    <string name="Gandhi">Mahatma Gandhi</string>
+    <string name="MalcolmX">Malcolm X</string>
+    <string name="TzeTung">Mao Tse-tung</string>
+    <string name="Aurelio">Marco Aurélio</string>
+    <string name="Tatcher">Margareth Thatcher</string>
+    <string name="Monroe">Marilyn Monroe</string>
+    <string name="Twain">Mark Twain</string>
+    <string name="Cervantes">Miguel de Cervantes</string>
+    <string name="Mandela">Nelson Mandela</string>
+    <string name="Wilde">Oscar Wilde</string>
+    <string name="Neruda">Pablo Neruda</string>
+    <string name="Coelho">Paulo Coelho</string>
+    <string name="Pitagoras">Pitágoras</string>
+    <string name="Platao">Platão</string>
+    <string name="Exupery">Saint-Exupêry</string>
+    <string name="Lama">Dalai Lama</string>
+    <string name="Buda">Buda</string>
+    <string name="LutherKing">Martin Luther King</string>
+    <string name="Vinci">Leonardo da Vinci</string>
+    <string name="Dali">Salvador Dalí</string>
+    <string name="hauer">Schopenhauer</string>
+    <string name="King">Stephen King</string>
+    <string name="Jobs">Steve Jobs</string>
+    <string name="SunTzu">Sun Tzu</string>
+    <string name="Voltaire">Voltaire</string>
+    <string name="Shakespeare">William Shakespeare</string>
+    <string name="Churchill">Winston Churchill</string>
+    <string name="todos">Todos (Aleatório)</string>
+    <string name="loading">Aguarde... Carregando...</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="close">Sair</string>
+
 
 </resources>

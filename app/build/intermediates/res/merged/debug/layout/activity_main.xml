@@ -37,12 +37,12 @@
         android:layout_gravity="center"
         app:backgroundTint="?attr/actionModeSplitBackground"
         app:srcCompat="@android:drawable/ic_menu_share"
-        android:layout_alignTop="@+id/btnQuote"
-        android:layout_alignRight="@+id/adViewMainActivity"
-        android:layout_alignEnd="@+id/adViewMainActivity" />
+        android:layout_alignTop="@+id/btnQuote1"
+        android:layout_alignRight="@+id/adViewMainActivity1"
+        android:layout_alignEnd="@+id/adViewMainActivity1" />
 
     <com.google.android.gms.ads.AdView
-        android:id="@+id/adViewMainActivity"
+        android:id="@+id/adViewMainActivity1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         ads:adSize="BANNER"
@@ -51,10 +51,10 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:id="@+id/btnQuote"
+        android:id="@+id/btnQuote1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/adViewMainActivity"
+        android:layout_above="@+id/adViewMainActivity1"
         android:layout_centerHorizontal="true"
         android:layout_margin="5dp"
         android:background="#99999999"

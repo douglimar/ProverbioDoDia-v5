@@ -2,4 +2,11 @@
 <resources>
     <string name="app_name">Proverbio del día</string>
     <string name="btnQuote">Nuevo proverbio</string>
+    <string name="todos">Todos (Al Azar)</string>
+    <string name="loading">Aguarde... Carregando.</string>
+    <string name="abraham_maslow">Abraham Maslow</string>
+    <string name="adam_smith">Adam Smith</string>
+    <string name="albert_einstein">Albert Einstein</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="close">Sair</string>
 </resources>

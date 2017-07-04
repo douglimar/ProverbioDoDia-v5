@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_all" android:icon="@drawable/ic_menu_gallery" android:title="@string/todos" android:checked="true"/>
+        <item android:id="@+id/nav_maslow" android:icon="@drawable/ic_menu_gallery" android:title="@string/Maslow"/>
+        <item android:id="@+id/nav_adamsmith" android:icon="@drawable/ic_menu_gallery" android:title="@string/Smith"/>
+        <item android:id="@+id/nav_einstein" android:icon="@drawable/ic_menu_gallery" android:title="@string/Eistein"/>
+        <item android:id="@+id/nav_kardec" android:icon="@drawable/ic_menu_gallery" android:title="@string/Kardec"/>
+        <item android:id="@+id/nav_aristoteles" android:icon="@drawable/ic_menu_gallery" android:title="@string/Aristeles"/>
+        <item android:id="@+id/nav_Buda" android:icon="@drawable/ic_menu_gallery" android:title="@string/Buda"/>
+        <item android:id="@+id/nav_marley" android:icon="@drawable/ic_menu_gallery" android:title="@string/Marley"/>
+        <item android:id="@+id/nav_chaplin" android:icon="@drawable/ic_menu_gallery" android:title="@string/Caplin"/>
+        <item android:id="@+id/nav_dickens" android:icon="@drawable/ic_menu_gallery" android:title="@string/Dickens"/>
+        <item android:id="@+id/nav_lispector" android:icon="@drawable/ic_menu_gallery" android:title="@string/Lispector"/>
+        <item android:id="@+id/nav_Lama" android:icon="@drawable/ic_menu_gallery" android:title="@string/Lama"/>
+        <item android:id="@+id/nav_confucio" android:icon="@drawable/ic_menu_gallery" android:title="@string/Confúcio"/>
+        <item android:id="@+id/nav_pessoa" android:icon="@drawable/ic_menu_gallery" android:title="@string/Pessoa"/>
+        <item android:id="@+id/nav_nietzsche" android:icon="@drawable/ic_menu_gallery" android:title="@string/Nietzsche"/>
+        <item android:id="@+id/nav_Ford" android:icon="@drawable/ic_menu_gallery" android:title="@string/Ford"/>
+        <item android:id="@+id/nav_Marx" android:icon="@drawable/ic_menu_gallery" android:title="@string/Marx"/>
+        <item android:id="@+id/nav_Vinci" android:icon="@drawable/ic_menu_gallery" android:title="@string/Vinci"/>
+        <item android:id="@+id/nav_gandhi" android:icon="@drawable/ic_menu_gallery" android:title="@string/Gandhi"/>
+        <item android:id="@+id/nav_malcolmX" android:icon="@drawable/ic_menu_gallery" android:title="@string/MalcolmX"/>
+        <item android:id="@+id/nav_TseTung" android:icon="@drawable/ic_menu_gallery" android:title="@string/TzeTung"/>
+        <item android:id="@+id/nav_aurelio" android:icon="@drawable/ic_menu_gallery" android:title="@string/Aurelio"/>
+        <item android:id="@+id/nav_tatcher" android:icon="@drawable/ic_menu_gallery" android:title="@string/Tatcher"/>
+        <item android:id="@+id/nav_monroe" android:icon="@drawable/ic_menu_gallery" android:title="@string/Monroe"/>
+        <item android:id="@+id/nav_LutherKing" android:icon="@drawable/ic_menu_gallery" android:title="@string/LutherKing"/>
+        <item android:id="@+id/nav_twain" android:icon="@drawable/ic_menu_gallery" android:title="@string/Twain"/>
+        <item android:id="@+id/nav_cervantes" android:icon="@drawable/ic_menu_gallery" android:title="@string/Cervantes"/>
+        <item android:id="@+id/nav_mandela" android:icon="@drawable/ic_menu_gallery" android:title="@string/Mandela"/>
+        <item android:id="@+id/nav_Wilde" android:icon="@drawable/ic_menu_gallery" android:title="@string/Wilde"/>
+        <item android:id="@+id/nav_neruda" android:icon="@drawable/ic_menu_gallery" android:title="@string/Neruda"/>
+        <item android:id="@+id/nav_coelho" android:icon="@drawable/ic_menu_gallery" android:title="@string/Coelho"/>
+        <item android:id="@+id/nav_pitagoras" android:icon="@drawable/ic_menu_gallery" android:title="@string/Pitagoras"/>
+        <item android:id="@+id/nav_platao" android:icon="@drawable/ic_menu_gallery" android:title="@string/Platao"/>
+        <item android:id="@+id/nav_exupery" android:icon="@drawable/ic_menu_gallery" android:title="@string/Exupery"/>
+        <item android:id="@+id/nav_Dali" android:icon="@drawable/ic_menu_gallery" android:title="@string/Dali"/>
+        <item android:id="@+id/nav_freud" android:icon="@drawable/ic_menu_gallery" android:title="@string/Freud"/>
+        <item android:id="@+id/nav_schopenhauer" android:icon="@drawable/ic_menu_gallery" android:title="@string/hauer"/>
+        <item android:id="@+id/nav_StephenKing" android:icon="@drawable/ic_menu_gallery" android:title="@string/King"/>
+        <item android:id="@+id/nav_Jobs" android:icon="@drawable/ic_menu_gallery" android:title="@string/Jobs"/>
+        <item android:id="@+id/nav_Tzu" android:icon="@drawable/ic_menu_gallery" android:title="@string/SunTzu"/>
+        <item android:id="@+id/nav_voltaire" android:icon="@drawable/ic_menu_gallery" android:title="@string/Voltaire"/>
+        <item android:id="@+id/nav_shakespeare" android:icon="@drawable/ic_menu_gallery" android:title="@string/Shakespeare"/>
+        <item android:id="@+id/nav_churchill" android:icon="@drawable/ic_menu_gallery" android:title="@string/Churchill"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_close"
+                android:icon="@drawable/ic_stat_name"
+                android:title="@string/close" />
+        </menu>
+    </item>
+
+</menu>

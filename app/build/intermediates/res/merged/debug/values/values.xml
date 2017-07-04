@@ -585,6 +585,8 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="design_appbar_elevation">4dp</dimen>
     <dimen name="design_bottom_navigation_active_item_max_width">168dp</dimen>
     <dimen name="design_bottom_navigation_active_text_size">14sp</dimen>
@@ -636,6 +638,8 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="notification_action_icon_size">32dp</dimen>
     <dimen name="notification_action_text_size">13sp</dimen>
     <dimen name="notification_big_circle_margin">12dp</dimen>
@@ -651,6 +655,12 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item>
+    <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -678,6 +688,47 @@
     <integer name="hide_password_duration">320</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="Aristeles">Aristóteles</string>
+    <string name="Aurelio">Marco Aurélio</string>
+    <string name="Buda">Buda</string>
+    <string name="Caplin">Charles Chaplin</string>
+    <string name="Cervantes">Miguel de Cervantes</string>
+    <string name="Churchill">Winston Churchill</string>
+    <string name="Coelho">Paulo Coelho</string>
+    <string name="Confúcio">Confúcio</string>
+    <string name="Dali">Salvador Dalí</string>
+    <string name="Dickens">Charles Dickens</string>
+    <string name="Eistein">Albert Einstein</string>
+    <string name="Exupery">Saint-Exupêry</string>
+    <string name="Ford">Henry Ford</string>
+    <string name="Freud">Sigmund Freud</string>
+    <string name="Gandhi">Mahatma Gandhi</string>
+    <string name="Jobs">Steve Jobs</string>
+    <string name="Kardec">Allan Kardec</string>
+    <string name="King">Stephen King</string>
+    <string name="Lama">Dalai Lama</string>
+    <string name="Lispector">Clarice Lispector</string>
+    <string name="LutherKing">Martin Luther King</string>
+    <string name="MalcolmX">Malcolm X</string>
+    <string name="Mandela">Nelson Mandela</string>
+    <string name="Marley">Bob Marley</string>
+    <string name="Marx">Karl Marx</string>
+    <string name="Maslow">Abraham Maslow</string>
+    <string name="Monroe">Marilyn Monroe</string>
+    <string name="Neruda">Pablo Neruda</string>
+    <string name="Nietzsche">Friedrich Nietzsche</string>
+    <string name="Pessoa">Fernando Pessoa</string>
+    <string name="Pitagoras">Pitágoras</string>
+    <string name="Platao">Platão</string>
+    <string name="Shakespeare">William Shakespeare</string>
+    <string name="Smith">Adam Smith</string>
+    <string name="SunTzu">Sun Tzu</string>
+    <string name="Tatcher">Margareth Thatcher</string>
+    <string name="Twain">Mark Twain</string>
+    <string name="TzeTung">Mao Tse-tung</string>
+    <string name="Vinci">Leonardo da Vinci</string>
+    <string name="Voltaire">Voltaire</string>
+    <string name="Wilde">Oscar Wilde</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -709,14 +760,15 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="action_settings">Settings</string>
-    <string name="app_name">ProverbioDoDia-v5</string>
+    <string name="action_settings">Config.</string>
+    <string name="app_name">Provérbio do dia</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="banner_ad_unit_TESTE" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="banner_ad_unit_id" translatable="false"/>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="btnQuote">Novo Provérbio</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="close">Sair</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -734,6 +786,11 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="hauer">Schopenhauer</string>
+    <string name="loading">Aguarde... Carregando...</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -747,6 +804,8 @@
     <string name="s6">Allow Ad to create a calendar event?</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_navigation_main2">Provérbio do dia</string>
+    <string name="todos">Todos (Aleatório)</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

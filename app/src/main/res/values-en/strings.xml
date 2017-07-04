@@ -2,4 +2,18 @@
 <resources>
     <string name="app_name">Quote of the Day</string>
     <string name="btnQuote">New Quote</string>
+    <string name="Aristeles">Aristotle</string>
+    <string name="Aurelio">Marcus Aurelius</string>
+    <string name="Buda">Buddha</string>
+    <string name="Confúcio">Confucius</string>
+    <string name="Pitagoras">Pythagoras</string>
+    <string name="Platao">Plato</string>
+    <string name="todos">All (Aleatory Mode)</string>
+    <string name="loading">Wait... Loading...</string>
+    <string name="abraham_maslow">Abraham Maslow</string>
+    <string name="adam_smith">Adam Smith</string>
+    <string name="albert_einstein">Albert Einstein</string>
+    <string name="compartilhar">Share</string>
+    <string name="close">Sair</string>
+    <string name="Caplin">Charlie Chaplin</string>
 </resources>
