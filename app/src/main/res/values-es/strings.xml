@@ -3,10 +3,15 @@
     <string name="app_name">Proverbio del día</string>
     <string name="btnQuote">Nuevo proverbio</string>
     <string name="todos">Todos (Al Azar)</string>
-    <string name="loading">Aguarde... Carregando.</string>
+    <string name="loading">Espera... Cargando...</string>
     <string name="abraham_maslow">Abraham Maslow</string>
     <string name="adam_smith">Adam Smith</string>
     <string name="albert_einstein">Albert Einstein</string>
-    <string name="compartilhar">Compartilhar</string>
-    <string name="close">Sair</string>
+    <string name="compartilhar">Compartir</string>
+    <string name="close">Salir</string>
+    <string name="title_activity_navigation_main2">Proverbio del día</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="Confúcio">Confucio</string>
+    <string name="Platao">Platón</string>
+    <string name="Pitagoras"></string>
 </resources>

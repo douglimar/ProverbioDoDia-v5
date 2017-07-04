@@ -38,10 +38,5 @@ public class Author {
 
     public void initializeData() {
 
-        List<Author> authors = new ArrayList<>();
-
-        authors.add(new Author("Platão","Platão e um filósofo."));
-        authors.add(new Author("Albert Einstein","Einstein e um filósofo."));
-        authors.add(new Author("Confúcio","Confúcio e um filósofo."));
     }
 }

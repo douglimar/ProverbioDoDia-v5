@@ -16,4 +16,6 @@
     <string name="compartilhar">Share</string>
     <string name="close">Sair</string>
     <string name="Caplin">Charlie Chaplin</string>
+    <string name="title_activity_navigation_main2">Quote of the day</string>
+    <string name="action_settings">Settings</string>
 </resources>

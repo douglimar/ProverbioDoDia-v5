@@ -1362,7 +1362,7 @@ public class Quote {
         quotes.add(new Quote("Winston Churchill ","Melhor lutar por algo, do que viver para nada.",aColorWhite,R.drawable.churchill2));
 
         return quotes;
-    };
+    }
 
     public List initializeSpanishData() {
 
@@ -1398,7 +1398,6 @@ public class Quote {
         aColorBlue[2] = 255;
 
         List<Quote> quotes = new ArrayList<>();
-
 
         quotes.add(new Quote("Adam Smith","En realidad, la atracción o el afecto no son más que simpatía de la costumbre.",aColorBlack,R.drawable.adamsmith));
         quotes.add(new Quote("Adam Smith","¿Qué mayor felicidad hay que la de ser amado y saber que lo merecemos? ¿Qué mayor desgracia que la de ser odiado y saber que lo merecemos?",aColorBlack,R.drawable.adamsmith));
@@ -1900,26 +1899,26 @@ public class Quote {
         quotes.add(new Quote("Martin Luther King","Sostengo que quien infringe una ley porque su conciencia la considera injusta, y acepta voluntariamente una pena de prisión, a fin de que se levante la conciencia social contra esa injusticia, hace gala, en realidad, de un respeto superior por el derecho.",aColorBlack,R.drawable.lutherking1));
         quotes.add(new Quote("Martin Luther King","Una nación que gasta más dinero en armamento militar que en programas sociales se acerca a la muerte espiritual.",aColorBlack,R.drawable.lutherking2));
 
-        quotes.add(new Quote("Leonardo Da Vinci","Así como una jornada bien empleada produce un dulce sueño, así una vida bien usada causa una dulce muerte.",aColorWhite,R.drawable.davinci1));
-        quotes.add(new Quote("Leonardo Da Vinci","Aquel que más posee, más miedo tiene de perderlo.",aColorBlack,R.drawable.davinci2));
-        quotes.add(new Quote("Leonardo Da Vinci","Así como el hierro se oxida por falta de uso, también la inactividad destruye el intelecto.",aColorWhite,R.drawable.davinci1));
-        quotes.add(new Quote("Leonardo Da Vinci","El que no valora la vida no se la merece.",aColorBlack,R.drawable.davinci2));
-        quotes.add(new Quote("Leonardo Da Vinci","En cuanto nace la virtud, nace contra ella la envidia, y antes perderá el cuerpo su sombra que la virtud su envidia.",aColorWhite,R.drawable.davinci1));
-        quotes.add(new Quote("Leonardo Da Vinci","He ofendido a Dios y a la humanidad porque mi trabajo no tuvo la calidad que debía haber tenido.",aColorBlack,R.drawable.davinci2));
-        quotes.add(new Quote("Leonardo Da Vinci","La belleza perece en la vida, pero es inmortal en el arte.",aColorWhite,R.drawable.davinci1));
-        quotes.add(new Quote("Leonardo Da Vinci","La naturaleza benigna provee de manera que en cualquier parte halles algo que aprender.",aColorBlack,R.drawable.davinci2));
-        quotes.add(new Quote("Leonardo Da Vinci","La pintura es poesía muda; la poesía pintura ciega.",aColorWhite,R.drawable.davinci1));
-        quotes.add(new Quote("Leonardo Da Vinci","La sabiduría es hija de la experiencia.",aColorBlack,R.drawable.davinci2));
-        quotes.add(new Quote("Leonardo Da Vinci","Los que se enamoran de la práctica sin la teoría son como los pilotos sin timón ni brújula, que nunca podrán saber a dónde van.",aColorWhite,R.drawable.davinci1));
-        quotes.add(new Quote("Leonardo Da Vinci","Mediocre alumno el que no sobrepase a su maestro.",aColorBlack,R.drawable.davinci2));
-        quotes.add(new Quote("Leonardo Da Vinci","Mientras pensaba que estaba aprendiendo a vivir, he aprendido cómo morir.",aColorWhite,R.drawable.davinci1));
-        quotes.add(new Quote("Leonardo Da Vinci","Puedes censurar a un amigo en confianza, pero debes alabarlo delante de los demás.",aColorBlack,R.drawable.davinci2));
-        quotes.add(new Quote("Leonardo Da Vinci","Quien de verdad sabe de qué habla, no encuentra razones para levantar la voz.",aColorWhite,R.drawable.davinci1));
-        quotes.add(new Quote("Leonardo Da Vinci","Quien no castiga el mal, ordena que se haga.",aColorBlack,R.drawable.davinci2));
-        quotes.add(new Quote("Leonardo Da Vinci","Quien poco piensa, se equivoca mucho.",aColorWhite,R.drawable.davinci1));
-        quotes.add(new Quote("Leonardo Da Vinci","Si es posible, se debe hacer reír hasta a los muertos.",aColorBlack,R.drawable.davinci2));
-        quotes.add(new Quote("Leonardo Da Vinci","Todo nuestro conocimiento tiene su principio en los sentimientos.",aColorWhite,R.drawable.davinci1));
-        quotes.add(new Quote("Leonardo Da Vinci","Verdaderamente, el hombre es el rey de los animales, pues su brutalidad supera a la de éstos.",aColorBlack,R.drawable.davinci2));
+        quotes.add(new Quote("Leonardo da Vinci","Así como una jornada bien empleada produce un dulce sueño, así una vida bien usada causa una dulce muerte.",aColorWhite,R.drawable.davinci1));
+        quotes.add(new Quote("Leonardo da Vinci","Aquel que más posee, más miedo tiene de perderlo.",aColorBlack,R.drawable.davinci2));
+        quotes.add(new Quote("Leonardo da Vinci","Así como el hierro se oxida por falta de uso, también la inactividad destruye el intelecto.",aColorWhite,R.drawable.davinci1));
+        quotes.add(new Quote("Leonardo da Vinci","El que no valora la vida no se la merece.",aColorBlack,R.drawable.davinci2));
+        quotes.add(new Quote("Leonardo da Vinci","En cuanto nace la virtud, nace contra ella la envidia, y antes perderá el cuerpo su sombra que la virtud su envidia.",aColorWhite,R.drawable.davinci1));
+        quotes.add(new Quote("Leonardo da Vinci","He ofendido a Dios y a la humanidad porque mi trabajo no tuvo la calidad que debía haber tenido.",aColorBlack,R.drawable.davinci2));
+        quotes.add(new Quote("Leonardo da Vinci","La belleza perece en la vida, pero es inmortal en el arte.",aColorWhite,R.drawable.davinci1));
+        quotes.add(new Quote("Leonardo da Vinci","La naturaleza benigna provee de manera que en cualquier parte halles algo que aprender.",aColorBlack,R.drawable.davinci2));
+        quotes.add(new Quote("Leonardo da Vinci","La pintura es poesía muda; la poesía pintura ciega.",aColorWhite,R.drawable.davinci1));
+        quotes.add(new Quote("Leonardo da Vinci","La sabiduría es hija de la experiencia.",aColorBlack,R.drawable.davinci2));
+        quotes.add(new Quote("Leonardo da Vinci","Los que se enamoran de la práctica sin la teoría son como los pilotos sin timón ni brújula, que nunca podrán saber a dónde van.",aColorWhite,R.drawable.davinci1));
+        quotes.add(new Quote("Leonardo da Vinci","Mediocre alumno el que no sobrepase a su maestro.",aColorBlack,R.drawable.davinci2));
+        quotes.add(new Quote("Leonardo da Vinci","Mientras pensaba que estaba aprendiendo a vivir, he aprendido cómo morir.",aColorWhite,R.drawable.davinci1));
+        quotes.add(new Quote("Leonardo da Vinci","Puedes censurar a un amigo en confianza, pero debes alabarlo delante de los demás.",aColorBlack,R.drawable.davinci2));
+        quotes.add(new Quote("Leonardo da Vinci","Quien de verdad sabe de qué habla, no encuentra razones para levantar la voz.",aColorWhite,R.drawable.davinci1));
+        quotes.add(new Quote("Leonardo da Vinci","Quien no castiga el mal, ordena que se haga.",aColorBlack,R.drawable.davinci2));
+        quotes.add(new Quote("Leonardo da Vinci","Quien poco piensa, se equivoca mucho.",aColorWhite,R.drawable.davinci1));
+        quotes.add(new Quote("Leonardo da Vinci","Si es posible, se debe hacer reír hasta a los muertos.",aColorBlack,R.drawable.davinci2));
+        quotes.add(new Quote("Leonardo da Vinci","Todo nuestro conocimiento tiene su principio en los sentimientos.",aColorWhite,R.drawable.davinci1));
+        quotes.add(new Quote("Leonardo da Vinci","Verdaderamente, el hombre es el rey de los animales, pues su brutalidad supera a la de éstos.",aColorBlack,R.drawable.davinci2));
 
         quotes.add(new Quote("Dalai Lama","La amistad sólo podía tener lugar a través del desarrollo del respeto mutuo y dentro de un espíritu de sinceridad.",aColorBlack,R.drawable.dalailama1));
         quotes.add(new Quote("Dalai Lama","El mantenimiento de la paz comienza con la autosatisfacción de cada individuo.",aColorWhite,R.drawable.dalailama2));
@@ -1941,9 +1940,9 @@ public class Quote {
         quotes.add(new Quote("Saint-Exupêry","El amor es lo único que crece cuando se reparte.",aColorBlack,R.drawable.saintexupery2));
         quotes.add(new Quote("Saint-Exupêry","El fracaso fortifica a los fuertes.",aColorBlack,R.drawable.saintexupery2));
         quotes.add(new Quote("Saint-Exupêry","El hombre se descubre cuando se mide con un obstáculo.",aColorBlack,R.drawable.saintexupery2));
-        quotes.add(new Quote("","El mundo entero se aparta cuando ve pasar a un hombre que sabe adónde va.",aColorBlack,R.drawable.saintexupery2));
+        quotes.add(new Quote("Saint-Exupêry","El mundo entero se aparta cuando ve pasar a un hombre que sabe adónde va.",aColorBlack,R.drawable.saintexupery2));
         quotes.add(new Quote("Saint-Exupêry","Es mucho más difícil juzgarse uno mismo que juzgar a los demás. Si logras juzgarte correctamente serás un verdadero sabio.",aColorBlack,R.drawable.saintexupery2));
-        quotes.add(new Quote("","Fue el tiempo que pasaste con tu rosa lo que la hizo tan importante.",aColorBlack,R.drawable.saintexupery2));
+        quotes.add(new Quote("Saint-Exupêry","Fue el tiempo que pasaste con tu rosa lo que la hizo tan importante.",aColorBlack,R.drawable.saintexupery2));
         quotes.add(new Quote("Saint-Exupêry","La huida no ha llevado a nadie a ningún sitio.",aColorBlack,R.drawable.saintexupery2));
         quotes.add(new Quote("Saint-Exupêry","La perfección se logra al fin, no cuando no hay nada que agregar, sino cuando ya no hay nada que obtener.",aColorBlack,R.drawable.saintexupery2));
         quotes.add(new Quote("Saint-Exupêry","Lo que embellece al desierto es que en alguna parte esconde un pozo de agua.",aColorBlack,R.drawable.saintexupery2));
@@ -2080,7 +2079,7 @@ public class Quote {
         quotes.add(new Quote("Winston Churchill ","Vivid arduamente, no temáis nada y os sonreirá el triunfo.",aColorWhite,R.drawable.churchill3));
 
         return quotes;
-    };
+    }
 
     public List initializeEnglishData() {
 
@@ -2981,7 +2980,7 @@ public class Quote {
         quotes.add(new Quote("Winston Churchill","To build may have to be the slow and laborious task of years. To destroy can be the thoughtless act of a single day.",aColorWhite,R.drawable.churchill3));
 
         return quotes;
-    };
+    }
 
 }
 
