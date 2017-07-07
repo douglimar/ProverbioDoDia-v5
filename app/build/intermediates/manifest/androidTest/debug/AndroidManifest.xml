@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="proverbiododia.ddmsoftware.br.proverbiododia_v5.test" >
+    package="br.ddmsoftware.proverbiododia.test" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -10,8 +10,8 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for proverbiododia.ddmsoftware.br.proverbiododia_v5"
-        android:targetPackage="proverbiododia.ddmsoftware.br.proverbiododia_v5" />
+        android:label="Tests for br.ddmsoftware.proverbiododia"
+        android:targetPackage="br.ddmsoftware.proverbiododia" />
 
     <application>
         <uses-library android:name="android.test.runner" />

@@ -1,42 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icone_64.png",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\src\\main\\res\\mipmap-hdpi\\icone_64.png"
-    },
-    {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icone_256.png",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\src\\main\\res\\mipmap-hdpi\\icone_256.png"
-    },
-    {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icone_128.png",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\src\\main\\res\\mipmap-hdpi\\icone_128.png"
-    },
-    {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icone_512.png",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\src\\main\\res\\mipmap-hdpi\\icone_512.png"
-    },
-    {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icone.png",
         "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\src\\main\\res\\mipmap-hdpi\\icone.png"
-    },
-    {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icone_96.png",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\src\\main\\res\\mipmap-hdpi\\icone_96.png"
-    },
-    {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icone_48.png",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\src\\main\\res\\mipmap-hdpi\\icone_48.png"
-    },
-    {
-        "merged": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icone_32.png",
-        "source": "C:\\Users\\dmoraes\\AndroidStudioProjects\\ProverbioDoDia-v5\\app\\src\\main\\res\\mipmap-hdpi\\icone_32.png"
     }
 ]

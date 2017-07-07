@@ -4,7 +4,8 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
     defaultConfig {
-        applicationId "proverbiododia.ddmsoftware.br.proverbiododia_v5"
+        vectorDrawables.useSupportLibrary = true
+        applicationId "br.ddmsoftware.proverbiododia"
         minSdkVersion 16
         targetSdkVersion 25
         versionCode 1

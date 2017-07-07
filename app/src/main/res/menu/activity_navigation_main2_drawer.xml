@@ -47,12 +47,8 @@
         <item android:id="@+id/nav_churchill" android:icon="@drawable/ic_menu_gallery" android:title="@string/Churchill"/>
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/misc">
         <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
             <item
                 android:id="@+id/nav_close"
                 android:icon="@drawable/ic_stat_name"
