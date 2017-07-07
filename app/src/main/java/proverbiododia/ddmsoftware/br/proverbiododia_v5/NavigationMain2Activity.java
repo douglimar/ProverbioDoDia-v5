@@ -867,8 +867,10 @@ public class NavigationMain2Activity extends AppCompatActivity
             imageViewNav.setScaleType(ImageView.ScaleType.FIT_XY);
         }
         else
-            if ((strQuotesPerAuthor != "") && (iCount == 0))
-                Toast.makeText(getApplicationContext(), "Desculpe... Nao existem provérbios para esse autor.", Toast.LENGTH_LONG).show();
+            if ((strQuotesPerAuthor != "") && (iCount == 0)) {
+                Toast.makeText(getApplicationContext(), R.string.no_quote_found, Toast.LENGTH_LONG).show();
+                imageViewNav.setImageResource(R.drawable.notfound);
+            }
             else {
                 //linearLayout.setBackground(new BitmapDrawable(drawTextOnBitmap(getApplication().getBaseContext(), lstQuote.get(i).authorBackground, lstQuote.get(i).quoteFontColor, lstQuote.get(i).quote + "\n\n" + lstQuote.get(i).author)));
                 imageViewNav.setImageBitmap(drawTextOnBitmap(getApplication().getBaseContext(), lstQuote.get(i).authorBackground, lstQuote.get(i).quoteFontColor, lstQuote.get(i).quote + "\n\n" + lstQuote.get(i).author));

@@ -14,4 +14,5 @@
     <string name="Confúcio">Confucio</string>
     <string name="Platao">Platón</string>
     <string name="Pitagoras"></string>
+    <string name="no_quote_found">Lo siento... No existen proverbios para ese autor.</string>
 </resources>
