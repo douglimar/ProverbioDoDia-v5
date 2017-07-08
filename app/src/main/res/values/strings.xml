@@ -1,6 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Provérbio do dia</string>
     <string name="banner_ad_unit_TESTE" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit" translatable="false">ca-app-pub-1098336821710456/2508681603</string>
     <string name="btnQuote">Novo Provérbio</string>
     <string name="title_activity_navigation_main2">Provérbio do dia</string>
 
@@ -49,15 +50,16 @@
     <string name="Shakespeare">William Shakespeare</string>
     <string name="Churchill">Winston Churchill</string>
     <string name="todos">Todos (Aleatório)</string>
-    <string name="loading">Aguarde… Carregando...</string>
+    <string name="loading">Aguarde… Carregando…</string>
     <string name="close">Sair</string>
-    <string name="no_quote_found" tools:ignore="Typos">Desculpe… Não existem provérbios para esse autor...</string>
+    <string name="no_quote_found" tools:ignore="Typos">Desculpe… Não existem provérbios para esse autor…</string>
     <string name="misc">Misc</string>
     <string name="delete_error">Nao foi possivel excluir o thumbnail.</string>
     <string name="error_share_mkdir">Share Process</string>
     <string name="error_share_mkdir2">Erro ao criar diretorio</string>
     <string name="notification_hint">Que tal ver algumas palavras de sabedoria hoje?</string>
     <string name="a_pill_of_sabedory_in_your_day">Uma pílula de sabedoria em seu dia</string>
+    <string name="compartilhar">Compartilhar</string>
 
 
 </resources>

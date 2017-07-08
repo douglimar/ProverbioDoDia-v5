@@ -55,6 +55,7 @@
     <string name="delete_error">Error trying delete a thumbnail.</string>
     <string name="error_share_mkdir">Share Process</string>
     <string name="error_share_mkdir2">Erro ao criar diretorio</string>
-    <string name="notification_hint">Que tal ver algumas palavras de sabedoria hoje?</string>
+    <string name="notification_hint">How about seeing some words of wisdom today?</string>
     <string name="a_pill_of_sabedory_in_your_day">A pill of sabedory in your day</string>
+    <string name="compartilhar">Share</string>
 </resources>

@@ -38,6 +38,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -49,6 +50,8 @@ import java.util.Random;
 
 public class NavigationMain2Activity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     //private ProgressDialog progressDialog;
     private File file;
@@ -93,6 +96,10 @@ public class NavigationMain2Activity extends AppCompatActivity
 
         initializeActivity();
         loadNewQuote();
+        startNotificationService();
+
+        // Obtain the FirebaseAnalytics instance.
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab1);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -643,7 +650,7 @@ public class NavigationMain2Activity extends AppCompatActivity
                 //startActivityForResult(Intent.createChooser(share, "Roberval")),1);
                 //startActivity(Intent.createChooser(share,"Compartilhar"));
                 //startActivity(Intent.createChooser(intShare, getString(R.string.compartilhar)));
-                startActivityForResult(Intent.createChooser(intShare, "Compartilhar"), 1);
+                startActivityForResult(Intent.createChooser(intShare, getString(R.string.compartilhar)), 1);
 
             }
         } catch (Exception e) {
@@ -737,6 +744,14 @@ public class NavigationMain2Activity extends AppCompatActivity
                 shareImage(0);
                 Snackbar.make(view, R.string.loading, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+
+                // Firebase Console Log Event
+                Bundle bundle = new Bundle();
+                bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "2");
+                bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "SHARE QUOTE CLICK()");
+                bundle.putString(FirebaseAnalytics.Param.CONTENT_TYPE, "image");
+                mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
+
             }
         });
 
@@ -750,6 +765,13 @@ public class NavigationMain2Activity extends AppCompatActivity
             public void onClick(View view) {
 
                 loadNewQuote();
+
+                Bundle bundle = new Bundle();
+                bundle.putString(FirebaseAnalytics.Param.ITEM_ID, "1");
+                bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "NEW QUOTE CLICK()");
+                bundle.putString(FirebaseAnalytics.Param.CONTENT_TYPE, "image");
+                mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
+
 
             }
         });
@@ -816,6 +838,13 @@ public class NavigationMain2Activity extends AppCompatActivity
                 imageViewNav.setScaleType(ImageView.ScaleType.FIT_XY);
             }
 
+
+    }
+
+
+    // Enable Notification Service (12 hours)
+    private void startNotificationService() {
+        NotificationEventReceiver.setupAlarm(getApplicationContext());
     }
 
 }

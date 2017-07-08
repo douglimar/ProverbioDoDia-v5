@@ -12,14 +12,18 @@ import java.util.Date;
 
 /**
  * Created by dmoraes on 23/09/2016.
+ *
+ * NECESSARIO REGISTRAR OS SERVICOS E RECEIVERS NO MANIFEST.XML
+ * VERIFICAR O ARQUIVO ANDROIDMANIFEST.XML DO PROJETO QUE VC ESTÁ COPIANDO ESSES METODOS
+
  */
 
 public class NotificationEventReceiver extends WakefulBroadcastReceiver {
 
     private static final String ACTION_START_NOTIFICATION_SERVICE = "ACTION_START_NOTIFICATION_SERVICE";
     private static final String ACTION_DELETE_NOTIFICATION = "ACTION_DELETE_NOTIFICATION";
-//    private static final int NOTIFICATIONS_INTERVAL_IN_HOURS = 24;
-    private static final int NOTIFICATIONS_INTERVAL_IN_HOURS = 1;
+    //private static final int NOTIFICATIONS_INTERVAL_IN_HOURS = 24;
+    private static final int NOTIFICATIONS_INTERVAL_IN_HOURS = 168; // 7 dias
 
     public static void setupAlarm(Context context){
         AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);

@@ -54,12 +54,12 @@
         android:id="@+id/adViewMainActivity1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_TESTE"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="0dp" />
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <Button
         android:id="@+id/btnQuote1"

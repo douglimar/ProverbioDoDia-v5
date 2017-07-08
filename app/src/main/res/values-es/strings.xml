@@ -2,8 +2,8 @@
 <resources>
     <string name="app_name">Proverbio del día</string>
     <string name="btnQuote">Nuevo proverbio</string>
-    <string name="todos">Todos (Al Azar)</string>
-    <string name="loading">Espera… Cargando...</string>
+    <string name="todos">Todos (Aleatorio)</string>
+    <string name="loading">Espera… Cargando… </string>
     <string name="close">Salir</string>
     <string name="title_activity_navigation_main2">Proverbio del día</string>
     <string name="Confúcio">Confucio</string>
@@ -55,6 +55,7 @@
     <string name="delete_error">No se pudo suprimir un thumbnail.</string>
     <string name="error_share_mkdir">Share Process</string>
     <string name="error_share_mkdir2">Erro ao criar diretorio</string>
-    <string name="notification_hint">Que tal ver algumas palavras de sabedoria hoje?</string>
+    <string name="notification_hint">¿Qué tal algunas palabras de sabiduría hoy?</string>
     <string name="a_pill_of_sabedory_in_your_day">Una píldora de sabedoria en tu día</string>
+    <string name="compartilhar">Compartir</string>
 </resources>

@@ -16,7 +16,7 @@ class Quote {
     public int authorBackground;
 
     private final int[] aColorGray = new int[3];
-    //private int[] aColorRed = new int[3];
+    private int[] aColorRed = new int[3];
     private final int[] aColorWhite = new int[3];
     private final int[] aColorBlack = new int[3];
     private final int[] aColorBlue = new  int[3];
@@ -32,7 +32,7 @@ class Quote {
     Quote() {
 
         aColorGray[0]  = 169; aColorGray[1]  = 169; aColorGray[2]  = 169; //R-G-B
-        //aColorRed[0]   = 255; aColorRed[1]   = 100; aColorRed[2]   = 100; //R-G-B
+        aColorRed[0]   = 255; aColorRed[1]   = 100; aColorRed[2]   = 100; //R-G-B
         aColorWhite[0] = 255; aColorWhite[1] = 255; aColorWhite[2] = 255; //R-G-B
         aColorBlack[0] =   0; aColorBlack[1] =   0; aColorBlack[2] =   0; //R-G-B
         aColorBlue[0]  =   0; aColorBlue[1]  = 255; aColorBlue[2]  = 255; //R-G-B
@@ -216,8 +216,8 @@ class Quote {
         quotes.add(new Quote("Bob Marley","Nesse grande futuro, não podemos esquecer do nosso passado.",aColorBlack, R.drawable.bobmarley3));
 
 
-        quotes.add(new Quote(" Charles Chaplin","A vida é maravilhosa se não se tem medo dela.",aColorBlack, R.drawable.chaplin1));
-        quotes.add(new Quote(" Charles Chaplin","Amo as mulheres, mas não as admiro...",aColorGray, R.drawable.chaplin2));
+        quotes.add(new Quote("Charles Chaplin","A vida é maravilhosa se não se tem medo dela.",aColorBlack, R.drawable.chaplin1));
+        quotes.add(new Quote("Charles Chaplin","Amo as mulheres, mas não as admiro...",aColorGray, R.drawable.chaplin2));
         quotes.add(new Quote("Charles Chaplin","Que os vossos esforços desafiem as impossibilidades, lembrai-vos de que as grandes coisas do homem foram conquistadas do que parecia impossível.",aColorBlack, R.drawable.chaplin1));
         quotes.add(new Quote("Charles Chaplin","Se o que você esta fazendo for engraçado, não há necessidade de ser engraçado para fazê-lo.",aColorGray, R.drawable.chaplin2));
         quotes.add(new Quote("Charles Chaplin","Num filme o que importa não é a realidade, mas o que dela possa extrair a imaginação.",aColorBlack, R.drawable.chaplin1));
@@ -517,41 +517,41 @@ class Quote {
         quotes.add(new Quote("Friedrich Nietzsche","Uma pessoa continua a trabalhar porque o trabalho é uma forma de diversão. Mas temos de ter cuidado para não deixarmos a diversão tornar-se demasiado penosa.",aColorWhite, R.drawable.nietzsche));
         quotes.add(new Quote("Friedrich Nietzsche","Uma vez tomada a decisão de não dar ouvidos mesmo aos melhores contra-argumentos: sinal do caráter forte. Também uma ocasional vontade de se ser estúpido.",aColorGray, R.drawable.nietzsche));
 
-        quotes.add(new Quote("Henry Ford","O insucesso é apenas uma oportunidade para recomeçar de novo com mais inteligência.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Não encontro defeitos. Encontro soluções. Qualquer um sabe queixar-se.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Um idealista é alguém que ajuda outro a ter lucro.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Não é o empregador quem paga os salários, mas o cliente.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Não nos tornamos ricos graças ao que ganhamos, mas com o que não gastamos.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Estar decidido, acima de qualquer coisa, é o segredo do êxito.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","O passado serve para evidenciar as nossas falhas e dar-nos indicações para o progresso do futuro.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","O dinheiro é a coisa mais inútil do mundo. Não estou interessado nele, apenas nas coisas de que ele é apenas um símbolo.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","A única história que vale alguma coisa é a história que fazemos hoje.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Os que renunciam são, em maior número, aqueles que mais fracassam.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Há mais pessoas que desistem, do que pessoas que fracassam!",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Corte sua própria lenha. Assim, ela aquecerá você duas vezes.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Reunir-se é um começo,permanecer juntos é um progresso, e trabalhar juntos é um sucesso.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","O insucesso é apenas uma oportunidade para recomeçar de novo com mais inteligência.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Nada é difícil se for dividido em pequenas partes. ",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Não encontre um defeito, encontre uma solução.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Obstáculos são aquelas coisas assustadoras que você vê quando desvia seus olhos de sua meta. ",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Reunir-se é um começo, permanecer juntos é um progresso, e trabalhar juntos é sucesso. ",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Não encontre falhas, encontre a solução.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","A ambição do homem é tão grande que para satisfazer a uma vontade presente, ele não pensa no mal que dentro em breve daí pode resultar.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Pessoas não fracassam . Elas simplesmente desistem.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Os dias prósperos não vêm por acaso; nascem de muita fadiga e persistência.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Pensar é o trabalho mais duro que há. O que é, provavelmente, o motivo porque tão pouca gente se dedica a fazê-lo.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Não é o empregador que paga os salários. Os empregadores só manipulam o dinheiro. É o freguês que paga os salários.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Nossos fracassos são, às vezes, mais frutíferos que nossos êxitos",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","O fracasso é a oportunidade de se começar de novo inteligentemente.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Reunir é um começo, manter-se juntos é um progresso e trabalhar juntos é Sucesso!",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Obstáculos são as coisas assustadoras que encontra quando desvia os olhos do seu sonho",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Amar o povo é fácil. O difícil é amar o próximo.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Os obstáculos são aquelas coisas terríveis que você vê quando desvia os olhos do seu objetivo.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Há dois tipos de pessoas que não interessam à uma boa empresa: as que não fazem o que se manda e as que só fazem o que se manda.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Qualidade significa fazer certo quando ninguém está olhando.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Quer você pense que pode, ou que não pode, você está certo.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","O dinheiro não modifica o homem, apenas o desmascara.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Se eu tivesse um único dólar, investiria em propaganda.",aColorGray, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","O insucesso é apenas uma oportunidade para recomeçar de novo com mais inteligência.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Não encontro defeitos. Encontro soluções. Qualquer um sabe queixar-se.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Um idealista é alguém que ajuda outro a ter lucro.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Não é o empregador quem paga os salários, mas o cliente.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Não nos tornamos ricos graças ao que ganhamos, mas com o que não gastamos.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Estar decidido, acima de qualquer coisa, é o segredo do êxito.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","O passado serve para evidenciar as nossas falhas e dar-nos indicações para o progresso do futuro.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","O dinheiro é a coisa mais inútil do mundo. Não estou interessado nele, apenas nas coisas de que ele é apenas um símbolo.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","A única história que vale alguma coisa é a história que fazemos hoje.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Os que renunciam são, em maior número, aqueles que mais fracassam.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Há mais pessoas que desistem, do que pessoas que fracassam!",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Corte sua própria lenha. Assim, ela aquecerá você duas vezes.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Reunir-se é um começo,permanecer juntos é um progresso, e trabalhar juntos é um sucesso.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","O insucesso é apenas uma oportunidade para recomeçar de novo com mais inteligência.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Nada é difícil se for dividido em pequenas partes. ",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Não encontre um defeito, encontre uma solução.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Obstáculos são aquelas coisas assustadoras que você vê quando desvia seus olhos de sua meta. ",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Reunir-se é um começo, permanecer juntos é um progresso, e trabalhar juntos é sucesso. ",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Não encontre falhas, encontre a solução.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","A ambição do homem é tão grande que para satisfazer a uma vontade presente, ele não pensa no mal que dentro em breve daí pode resultar.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Pessoas não fracassam . Elas simplesmente desistem.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Os dias prósperos não vêm por acaso; nascem de muita fadiga e persistência.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Pensar é o trabalho mais duro que há. O que é, provavelmente, o motivo porque tão pouca gente se dedica a fazê-lo.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Não é o empregador que paga os salários. Os empregadores só manipulam o dinheiro. É o freguês que paga os salários.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Nossos fracassos são, às vezes, mais frutíferos que nossos êxitos",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","O fracasso é a oportunidade de se começar de novo inteligentemente.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Reunir é um começo, manter-se juntos é um progresso e trabalhar juntos é Sucesso!",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Obstáculos são as coisas assustadoras que encontra quando desvia os olhos do seu sonho",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Amar o povo é fácil. O difícil é amar o próximo.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Os obstáculos são aquelas coisas terríveis que você vê quando desvia os olhos do seu objetivo.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Há dois tipos de pessoas que não interessam à uma boa empresa: as que não fazem o que se manda e as que só fazem o que se manda.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Qualidade significa fazer certo quando ninguém está olhando.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Quer você pense que pode, ou que não pode, você está certo.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","O dinheiro não modifica o homem, apenas o desmascara.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Se eu tivesse um único dólar, investiria em propaganda.",aColorWhite, R.drawable.ford));
 
         quotes.add(new Quote("Karl Marx","A história da sociedade até aos nossos dias é a história da luta de classes.",aColorWhite, R.drawable.karlmarx1));
         quotes.add(new Quote("Karl Marx","As revoluções são a locomotiva da história.",aColorBlue, R.drawable.karlmarx2));
@@ -828,25 +828,25 @@ class Quote {
         quotes.add(new Quote("Oscar Wilde","Um homem pode viver feliz com qualquer mulher desde que não a ame.",aColorBlack, R.drawable.oscarwilde1));
         quotes.add(new Quote("Oscar Wilde","Viver é a coisa mais rara do mundo. A maioria das pessoas apenas existe.",aColorWhite, R.drawable.oscarwilde2));
 
-        quotes.add(new Quote("Pablo Neruda","A verdade é que não há verdade.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","A verdade é que não há verdade.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","Os poetas odeiam o ódio e fazem guerra à guerra.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","A poesia tem comunicação secreta com o sofrimento do homem.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","A poesia tem comunicação secreta com o sofrimento do homem.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","É tão difícil as pessoas razoáveis se tornarem poetas, quanto os poetas se tornarem razoáveis.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","A timidez é uma condição alheia ao coração, uma categoria, uma dimensão que desemboca na solidão.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","A timidez é uma condição alheia ao coração, uma categoria, uma dimensão que desemboca na solidão.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","É tão curto o amor, tão longo o esquecimento",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","O maior dos sofrimentos é nunca ter sofrido.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","O maior dos sofrimentos é nunca ter sofrido.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","A verdade é que não há verdade.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","Os poetas odeiam o ódio e fazem guerra à guerra. (Pablo Neruda)",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","Os poetas odeiam o ódio e fazem guerra à guerra. (Pablo Neruda)",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","A poesia tem comunicação secreta com o sofrimento do homem. (Pablo Neruda)",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","É tão difícil as pessoas razoáveis se tornarem poetas, quanto os poetas se tornarem razoáveis. (Pablo Neruda)",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","É tão difícil as pessoas razoáveis se tornarem poetas, quanto os poetas se tornarem razoáveis. (Pablo Neruda)",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","Nega-me o pão, o ar, a luz, a primavera, mas nunca o teu riso, porque então morreria. (Pablo Neruda)",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","É não ver o futuro que nos convida ... '' (Pablo Neruda)",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","É não ver o futuro que nos convida ... '' (Pablo Neruda)",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","Dois amantes felizes não têm fim nem morte, nascem e morrem tanta vez enquanto vivem, são eternos como é a natureza",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","É tão curto o amor, tão longo o esquecimento.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","É tão curto o amor, tão longo o esquecimento.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","É proibido sentir saudades de alguém sem se alegrar, esquecer seus olhos, seu sorriso, só porque seus caminhos se desencontraram.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","Só um louco pode desejar guerras. A guera destrói a própria lógica da existência humana.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","Só um louco pode desejar guerras. A guera destrói a própria lógica da existência humana.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","Refugiei-me na poesia com ferocidade de tímido.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","Para que nada nos separe que nada nos una.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","Para que nada nos separe que nada nos una.",aColorRed, R.drawable.neruda1));
 
         quotes.add(new Quote("Paulo Coelho","Não existe nada de completamente errado no mundo, mesmo um relógio parado, consegue estar certo duas vezes por dia.",aColorBlack, R.drawable.paulocoelho1));
         quotes.add(new Quote("Paulo Coelho","Quando você quer alguma coisa, todo o universo conspira para que você realize o seu desejo.",aColorBlack, R.drawable.paulocoelho2));
@@ -1554,23 +1554,23 @@ class Quote {
         quotes.add(new Quote("Friedrich Nietzsche","Todo lo que se hace por amor, se hace más allá del bien y del mal.",aColorWhite, R.drawable.nietzsche));
         quotes.add(new Quote("Friedrich Nietzsche","Yo necesito compañeros, pero compañeros vivos; no muertos y cadáveres que tenga que llevar a cuestas por donde vaya.",aColorWhite, R.drawable.nietzsche));
 
-        quotes.add(new Quote("Henry Ford","Pensar es el trabajo más difícil que existe. Quizá esa sea la razón por la que haya tan pocas personas que lo practiquen.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Cuando pensamos que el día de mañana nunca llegará, ya se ha convertido en el ayer.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","El dinero es como un brazo o una pierna: o se usa o se pierde.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","El ejercicio físico es una bobada. Si estás bien no lo necesitas y si estás mal no puedes hacerlo.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","El fracaso es una gran oportunidad para empezar otra vez con más inteligencia.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","El fracaso es, a veces, más fructífero que el éxito.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","El mejor automovilista es aquel que conduce con imaginación... imagina que su familia va con él en el auto.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","El secreto de mi éxito está en pagar como si fuera pródigo y en vender como si estuviera en quiebra.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","El verdadero progreso es el que pone la tecnología al alcance de todos.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","La adulación en un amigo verdadero es una cosa monstruosa.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","La mayoría de las personas gastan más tiempo y energías en hablar de los problemas que en afrontarlos.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Los que renuncian son más numerosos que los que fracasan.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","No encuentres la falta, encuentra el remedio.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Si hay un secreto del buen éxito reside en la capacidad para apreciar el punto de vista del prójimo y ver las cosas desde ese punto de vista así como del propio.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Tanto si piensas que puedes, como si piensas que no puedes, estás en lo cierto.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Un idealista es una persona que ayuda a otra a ser próspera.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Unirse es el comienzo; estar juntos es el progreso; trabajar juntos es el éxito.",aColorGray, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Pensar es el trabajo más difícil que existe. Quizá esa sea la razón por la que haya tan pocas personas que lo practiquen.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Cuando pensamos que el día de mañana nunca llegará, ya se ha convertido en el ayer.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","El dinero es como un brazo o una pierna: o se usa o se pierde.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","El ejercicio físico es una bobada. Si estás bien no lo necesitas y si estás mal no puedes hacerlo.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","El fracaso es una gran oportunidad para empezar otra vez con más inteligencia.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","El fracaso es, a veces, más fructífero que el éxito.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","El mejor automovilista es aquel que conduce con imaginación... imagina que su familia va con él en el auto.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","El secreto de mi éxito está en pagar como si fuera pródigo y en vender como si estuviera en quiebra.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","El verdadero progreso es el que pone la tecnología al alcance de todos.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","La adulación en un amigo verdadero es una cosa monstruosa.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","La mayoría de las personas gastan más tiempo y energías en hablar de los problemas que en afrontarlos.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Los que renuncian son más numerosos que los que fracasan.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","No encuentres la falta, encuentra el remedio.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Si hay un secreto del buen éxito reside en la capacidad para apreciar el punto de vista del prójimo y ver las cosas desde ese punto de vista así como del propio.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Tanto si piensas que puedes, como si piensas que no puedes, estás en lo cierto.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Un idealista es una persona que ayuda a otra a ser próspera.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Unirse es el comienzo; estar juntos es el progreso; trabajar juntos es el éxito.",aColorWhite, R.drawable.ford));
 
         quotes.add(new Quote("Karl Marx","La desvalorización del mundo humano crece en razón directa de la valorización del mundo de las cosas.",aColorWhite, R.drawable.karlmarx1));
         quotes.add(new Quote("Karl Marx","El ejecutivo del Estado moderno no es otra cosa que un comité de administración de los negocios de la burguesía.",aColorBlue, R.drawable.karlmarx2));
@@ -1722,31 +1722,31 @@ class Quote {
         quotes.add(new Quote("Oscar Wilde","Un hombre puede ser feliz con cualquier mujer mientras que no la ame.",aColorBlack, R.drawable.oscarwilde1));
         quotes.add(new Quote("Oscar Wilde","Uno debería estar siempre enamorado. Por eso jamás deberíamos casarnos.",aColorWhite, R.drawable.oscarwilde2));
 
-        quotes.add(new Quote("Pablo Neruda","En un beso, sabrás todo lo que he callado.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","En un beso, sabrás todo lo que he callado.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","¿Sufre más aquél que espera siempre que aquél que nunca esperó a nadie?.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","a pura sangre, a mano.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","a pura sangre, a mano.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","Algún día en cualquier parte, en cualquier lugar indefectiblemente te encontrarás a ti mismo, y ésa, sólo ésa, puede ser la más feliz o la más amarga de tus horas.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","Amor, cuántos caminos hasta llegar a un beso, ¡qué soledad errante hasta tu compañía!",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","Amor, cuántos caminos hasta llegar a un beso, ¡qué soledad errante hasta tu compañía!",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","Conocer el amor de los que amamos es el fuego que alimenta la vida.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","El fuero para el gran ladrón, la cárcel para el que roba un pan.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","El fuero para el gran ladrón, la cárcel para el que roba un pan.",aColorGray, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","El niño que no juega no es niño, pero el hombre que no juega perdió para siempre al niño que vivía en él y que le hará mucha falta.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","el viento y sobre el agua, ",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","el viento y sobre el agua, ",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","Es tan corto el amor y tan largo el olvido.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","hasta que me encontraron.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","hasta que me encontraron.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","La poesía nace del dolor. La alegría es un fin en sí misma.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","La timidez es una condición ajena al corazón, una categoría, una dimensión que desemboca en la soledad.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","La timidez es una condición ajena al corazón, una categoría, una dimensión que desemboca en la soledad.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","Las lágrimas que no se lloran, ¿esperan en pequeños lagos? ¿o serán ríos invisibles que corren hacia la tristeza?",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","No hay más destino que el que nos haremos ",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","No hay más destino que el que nos haremos ",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","Para mi corazón basta tu pecho, ",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","Para que nada nos separe que nada nos una.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","Para que nada nos separe que nada nos una.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","para tu libertad bastan mis alas.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","Pero no amo tus pies ",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","Pero no amo tus pies ",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","Podrán cortar todas las flores, pero no podrán detener la primavera.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","Por qué se me vendrá todo el amor de golpe cuando me siento triste, y te siento lejana ...",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","Por qué se me vendrá todo el amor de golpe cuando me siento triste, y te siento lejana ...",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","Sembremos la llanura antes de arar la loma.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","sino porque anduvieron ",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","sino porque anduvieron ",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","sobre la tierra y sobre ",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","Sólo con una ardiente paciencia conquistaremos la espléndida ciudad que dará luz, justicia y dignidad a todos los hombres. Así la poesía no habrá cantado en vano.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","Sólo con una ardiente paciencia conquistaremos la espléndida ciudad que dará luz, justicia y dignidad a todos los hombres. Así la poesía no habrá cantado en vano.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","Yo creía que la ruta pasaba por el hombre, y que de allí tenía que salir el destino.",aColorBlack, R.drawable.neruda2));
 
         quotes.add(new Quote("Paulo Coelho","La posibilidad de realizar un sueño es lo que hace que la vida sea interesante.",aColorBlack, R.drawable.paulocoelho1));
@@ -2381,26 +2381,26 @@ class Quote {
         quotes.add(new Quote("Friedrich Nietzsche","Poets are shameless with their experiences: they exploit them.",aColorWhite, R.drawable.nietzsche));
         quotes.add(new Quote("Friedrich Nietzsche","He who fights with monsters might take care lest he thereby become a monster. And if you gaze for long into an abyss, the abyss gazes also into you.",aColorWhite, R.drawable.nietzsche));
 
-        quotes.add(new Quote("Henry Ford","Obstacles are those frightful things you see when you take your eyes off your goal.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","My best friend is the one who brings out the best in me.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Coming together is a beginning; keeping together is progress; working together is success.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Failure is simply the opportunity to begin again, this time more intelligently.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","When everything seems to be going against you, remember that the airplane takes off against the wind, not with it.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Don't find fault, find a remedy.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","If everyone is moving forward together, then success takes care of itself.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young. The greatest thing in life is to keep your mind young.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","A business that makes nothing but money is a poor business.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","If you think you can do a thing or think you can't do a thing, you're right.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Thinking is the hardest work there is, which is probably the reason why so few engage in it.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Quality means doing it right when no one is looking.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Most people spend more time and energy going around problems than in trying to solve them.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Whether you think that you can, or that you can't, you are usually right.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Money is like an arm or leg - use it or lose it.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","A market is never saturated with a good product, but it is very quickly saturated with a bad one.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","It has been my observation that most people get ahead during the time that others waste.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Competition is the keen cutting edge of business, always shaving away at costs.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","Before everything else, getting ready is the secret of success.",aColorGray, R.drawable.ford));
-        quotes.add(new Quote("Henry Ford","An idealist is a person who helps other people to be prosperous.",aColorGray, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Obstacles are those frightful things you see when you take your eyes off your goal.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","My best friend is the one who brings out the best in me.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Coming together is a beginning; keeping together is progress; working together is success.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Failure is simply the opportunity to begin again, this time more intelligently.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","When everything seems to be going against you, remember that the airplane takes off against the wind, not with it.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Don't find fault, find a remedy.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","If everyone is moving forward together, then success takes care of itself.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young. The greatest thing in life is to keep your mind young.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","A business that makes nothing but money is a poor business.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","If you think you can do a thing or think you can't do a thing, you're right.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Thinking is the hardest work there is, which is probably the reason why so few engage in it.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Quality means doing it right when no one is looking.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Most people spend more time and energy going around problems than in trying to solve them.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Whether you think that you can, or that you can't, you are usually right.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Money is like an arm or leg - use it or lose it.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","A market is never saturated with a good product, but it is very quickly saturated with a bad one.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","It has been my observation that most people get ahead during the time that others waste.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Competition is the keen cutting edge of business, always shaving away at costs.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","Before everything else, getting ready is the secret of success.",aColorWhite, R.drawable.ford));
+        quotes.add(new Quote("Henry Ford","An idealist is a person who helps other people to be prosperous.",aColorWhite, R.drawable.ford));
 
         quotes.add(new Quote("Karl Marx","Revolutions are the locomotives of history.",aColorWhite, R.drawable.karlmarx1));
         quotes.add(new Quote("Karl Marx","The rich will do anything for the poor but get off their backs.",aColorBlue, R.drawable.karlmarx2));
@@ -2624,13 +2624,13 @@ class Quote {
         quotes.add(new Quote("Oscar Wilde","Consistency is the last refuge of the unimaginative.",aColorBlack, R.drawable.oscarwilde1));
         quotes.add(new Quote("Oscar Wilde","Patriotism is the virtue of the vicious.",aColorWhite, R.drawable.oscarwilde2));
 
-        quotes.add(new Quote("Pablo Neruda","You can cut all the flowers but you cannot keep spring from coming.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","You can cut all the flowers but you cannot keep spring from coming.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","I want to do to you what spring does with the cherry trees.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","Love is so short, forgetting is so long.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","Love is so short, forgetting is so long.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","But from each crime are born bullets that will one day seek out in you where the heart lies.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","And one by one the nights between our separated cities are joined to the night that unites us.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","And one by one the nights between our separated cities are joined to the night that unites us.",aColorRed, R.drawable.neruda1));
         quotes.add(new Quote("Pablo Neruda","Peace goes into the making of a poem as flour goes into the making of bread.",aColorBlack, R.drawable.neruda2));
-        quotes.add(new Quote("Pablo Neruda","I grew up in this town, my poetry was born between the hill and the river, it took its voice from the rain, and like the timber, it steeped itself in the forests.",aColorBlack, R.drawable.neruda1));
+        quotes.add(new Quote("Pablo Neruda","I grew up in this town, my poetry was born between the hill and the river, it took its voice from the rain, and like the timber, it steeped itself in the forests.",aColorRed, R.drawable.neruda1));
 
         quotes.add(new Quote("Paulo Coelho","Life was always a matter of waiting for the right moment to act.",aColorBlack, R.drawable.paulocoelho1));
         quotes.add(new Quote("Paulo Coelho","Be brave. Take risks. Nothing can substitute experience.",aColorBlack, R.drawable.paulocoelho2));

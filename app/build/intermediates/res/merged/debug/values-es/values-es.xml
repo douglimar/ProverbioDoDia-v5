@@ -81,16 +81,17 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir en teléfono"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sesión"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
+    <string name="compartilhar">Compartir</string>
     <string name="delete_error">No se pudo suprimir un thumbnail.</string>
     <string name="error_share_mkdir">Share Process</string>
     <string name="error_share_mkdir2">Erro ao criar diretorio</string>
     <string name="hauer">Schopenhauer</string>
-    <string name="loading">Espera… Cargando...</string>
+    <string name="loading">Espera… Cargando… </string>
     <string name="misc">Misc</string>
     <string name="navigation_drawer_close">Fechar</string>
     <string name="navigation_drawer_open">Abrir</string>
     <string name="no_quote_found">Lo siento… No existen proverbios para ese autor.</string>
-    <string name="notification_hint">Que tal ver algumas palavras de sabedoria hoje?</string>
+    <string name="notification_hint">¿Qué tal algunas palabras de sabiduría hoy?</string>
     <string msgid="368094699078615544" name="s1">"Guardar imagen"</string>
     <string msgid="4550830452390689489" name="s2">"¿Permitir que el anuncio almacene imágenes en la galería de imágenes?"</string>
     <string msgid="2435407834265420668" name="s3">"Aceptar"</string>
@@ -100,5 +101,5 @@
     <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
     <string name="title_activity_navigation_main2">Proverbio del día</string>
-    <string name="todos">Todos (Al Azar)</string>
+    <string name="todos">Todos (Aleatorio)</string>
 </resources>
