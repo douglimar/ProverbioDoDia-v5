@@ -736,9 +736,9 @@ int drawable avd_show_password_3 0x7f0200d3
 int drawable bobmarley1 0x7f020058
 int drawable bobmarley2 0x7f020059
 int drawable bobmarley3 0x7f02005a
-int drawable bootsplash_1280x720 0x7f02005b
-int drawable bootsplash_1280x720_en 0x7f02005c
-int drawable bootsplash_1280x720_es 0x7f02005d
+int drawable bootsplash_1280x720_en 0x7f02005b
+int drawable bootsplash_1280x720_es 0x7f02005c
+int drawable bootsplash_1280x720_pt 0x7f02005d
 int drawable buda1 0x7f02005e
 int drawable buda2 0x7f02005f
 int drawable cervantes1 0x7f020060
@@ -1150,7 +1150,6 @@ int layout support_simple_spinner_dropdown_item 0x7f040041
 int menu activity_navigation_main2_drawer 0x7f0f0000
 int menu navigation_main2 0x7f0f0001
 int mipmap icone 0x7f030000
-int mipmap icone_48 0x7f030001
 int string Aristeles 0x7f08002c
 int string Aurelio 0x7f08002d
 int string Buda 0x7f08002e

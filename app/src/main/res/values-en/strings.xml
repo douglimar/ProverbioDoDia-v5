@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Quote of the Day</string>
+    <string name="app_name">Quotes of the Day</string>
     <string name="btnQuote">New Quote</string>
     <string name="Aristeles">Aristotle</string>
     <string name="Aurelio">Marcus Aurelius</string>

@@ -216,12 +216,12 @@
         "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/drawable/dalailama1.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/oscarwilde2.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/drawable/oscarwilde2.png"
-    },
-    {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/oscarwilde2.png",
+        "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/drawable/oscarwilde2.png"
     },
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
@@ -264,12 +264,12 @@
         "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/drawable/adamsmith.png"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/davinci2.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/drawable/davinci2.png"
-    },
-    {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/davinci2.png",
+        "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/drawable/davinci2.png"
     },
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/bobmarley3.png",
@@ -294,10 +294,6 @@
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/bootsplash_1280x720_es.png",
         "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/drawable/bootsplash_1280x720_es.png"
-    },
-    {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/bootsplash_1280x720.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/drawable/bootsplash_1280x720.png"
     },
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/ford.png",
@@ -344,12 +340,12 @@
         "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/davinci1.png",
-        "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/drawable/davinci1.png"
-    },
-    {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
         "source": "/home/douglimar/.android/build-cache/a5e45bfe8178afa49801d905aaf903fe874f69e6/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/davinci1.png",
+        "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/drawable/davinci1.png"
     },
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/marktwain1.png",
@@ -386,6 +382,10 @@
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/salvadordali2.png",
         "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/drawable/salvadordali2.png"
+    },
+    {
+        "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/bootsplash_1280x720_pt.png",
+        "source": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/src/main/res/drawable/bootsplash_1280x720_pt.png"
     },
     {
         "merged": "/home/douglimar/workspace/AndroidStudioProjects/ProverbioDoDia-v5/app/build/intermediates/res/merged/debug/drawable/schopenhauer.png",

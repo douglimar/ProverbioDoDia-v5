@@ -1498,6 +1498,17 @@ class Quote {
         quotes.add(new Quote("Confucio","Una casa será fuerte e indestructible cuando esté sostenida por estas cuatro columnas: padre valiente, madre prudente, hijo obediente, hermano complaciente.",aColorWhite, R.drawable.confucio1));
         quotes.add(new Quote("Confucio","Una voz fuerte no puede competir con una voz clara, aunque ésta sea un simple murmullo.",aColorBlue, R.drawable.confucio2));
 
+        quotes.add(new Quote("Fernando Pessoa","Entre la vida y yo hay un cristal tenue. Por más claramente que vea y comprenda la vida, no puedo tocarla.",aColorBlack,R.drawable.fernandopessoa));
+        quotes.add(new Quote("Fernando Pessoa","El mundo es de quien nace para conquistarlo y no de quien sueña que puede conquistarlo.",aColorBlack,R.drawable.fernandopessoa));
+        quotes.add(new Quote("Fernando Pessoa","El único misterio del universo es que exista un misterio del universo.",aColorBlack,R.drawable.fernandopessoa));
+        quotes.add(new Quote("Fernando Pessoa","La función última de la crítica es que satisfaga la función natural de desdeñar, lo que conviene a la buena higiene del espíritu.",aColorBlack,R.drawable.fernandopessoa));
+        quotes.add(new Quote("Fernando Pessoa","Los viajes son los viajeros. Lo que vemos no es lo que vemos, sino lo que somos.",aColorBlack,R.drawable.fernandopessoa));
+        quotes.add(new Quote("Fernando Pessoa","No hagas hoy lo que puedas dejar de hacer también mañana.",aColorBlack,R.drawable.fernandopessoa));
+        quotes.add(new Quote("Fernando Pessoa","Pasar de los fantasmas de la fe a los espectros de la razón no es más que ser cambiado de c",aColorBlack,R.drawable.fernandopessoa));
+        quotes.add(new Quote("Fernando Pessoa","Por la boca mueren el pez y Oscar Wilde.",aColorBlack,R.drawable.fernandopessoa));
+        quotes.add(new Quote("Fernando Pessoa","Amamos siempre en lo que tenemos. Lo que no tenemos cuando amamos.",aColorBlack,R.drawable.fernandopessoa));
+        quotes.add(new Quote("Fernando Pessoa","Ser poeta no es una ambición mía, es mi manera de estar sólo.",aColorBlack,R.drawable.fernandopessoa));
+
         quotes.add(new Quote("Sigmund Freud","Existen dos maneras de ser feliz en esta vida, una es hacerse el idiota y la otra serlo.",aColorWhite, R.drawable.freud1));
         quotes.add(new Quote("Sigmund Freud","A veces un puro es solamente un puro.",aColorWhite, R.drawable.freud2));
         quotes.add(new Quote("Sigmund Freud","Cada uno de nosotros tiene a todos como mortales menos a sí mismo.",aColorWhite, R.drawable.freud1));
@@ -1651,6 +1662,23 @@ class Quote {
         quotes.add(new Quote("Mark Twain","Todo lo que necesitas en esta vida es ignorancia y confianza en ti mismo, así tendrás el éxito asegurado.",aColorBlack, R.drawable.marktwain2));
         quotes.add(new Quote("Mark Twain","Un banquero es un señor que nos presta un paraguas cuando hace sol y nos lo exige cuando empieza a llover.",aColorWhite, R.drawable.marktwain1));
         quotes.add(new Quote("Mark Twain","Un hombre con una idea nueva es un loco hasta que la idea triunfa.",aColorBlack, R.drawable.marktwain2));
+
+
+        quotes.add(new Quote("Mao Tse-tung","La crítica debe hacerse a tiempo; no hay que dejarse llevar por la mala costumbre de criticar sólo después de consumados los hechos.",aColorWhite,R.drawable.maotsetung));
+        quotes.add(new Quote("Mao Tse-tung","La acción no debe ser una reacción sino una creación.",aColorWhite,R.drawable.maotsetung));
+        quotes.add(new Quote("Mao Tse-tung","La política es una guerra sin efusión de sangre; la guerra una política con efusión de sangre.",aColorWhite,R.drawable.maotsetung));
+        quotes.add(new Quote("Mao Tse-tung","Leer demasiados libros es peligroso.",aColorWhite,R.drawable.maotsetung));
+        quotes.add(new Quote("Mao Tse-tung","Lo urgente generalmente atenta contra lo necesario.",aColorWhite,R.drawable.maotsetung));
+        quotes.add(new Quote("Mao Tse-tung","Vivir no consiste en respirar sino en obrar.",aColorWhite,R.drawable.maotsetung));
+
+
+        quotes.add(new Quote("Marco Aurélio","No lo hagas si no conviene. No lo digas si no es verdad.",aColorBlack,R.drawable.marcus_aurelius1));
+        quotes.add(new Quote("Marco Aurélio","Cuando el dolor es insoportable, nos destruye; cuando no nos destruye, es que es soportable.",aColorBlack,R.drawable.marcus_aurelius1));
+        quotes.add(new Quote("Marco Aurélio","De las cosas que tienes, escoge las mejores y después medita cuán afanosamente las hubieras buscado si no las tuvieras.",aColorBlack,R.drawable.marcus_aurelius1));
+        quotes.add(new Quote("Marco Aurélio","El tiempo es como un río que arrastra rápidamente todo lo que nace.",aColorBlack,R.drawable.marcus_aurelius1));
+        quotes.add(new Quote("Marco Aurélio","El verdadero modo de vengarse de un enemigo es no parecérsele.",aColorBlack,R.drawable.marcus_aurelius1));
+        quotes.add(new Quote("Marco Aurélio","Lo que no es útil para la colmena, no es útil para la abeja.",aColorBlack,R.drawable.marcus_aurelius1));
+        quotes.add(new Quote("Marco Aurélio","Si la fama sólo llega después de la muerte, no tengo prisa en conseguirla.",aColorBlack,R.drawable.marcus_aurelius1));
 
         quotes.add(new Quote("Miguel de Cervantes","¿Qué locura o qué desatino me lleva a contar las ajenas faltas, teniendo tanto que decir de las mías?",aColorBlack, R.drawable.cervantes1));
         quotes.add(new Quote("Miguel de Cervantes","Amistades que son ciertas nadie las puede turbar.",aColorWhite, R.drawable.cervantes2));
@@ -1934,6 +1962,9 @@ class Quote {
         quotes.add(new Quote("Schopenhauer","Se dice que la maldad se expía en aquel mundo; pero la estupidez se expía en éste.",aColorBlack, R.drawable.schopenhauer));
         quotes.add(new Quote("Schopenhauer","Toda vida es sufrimiento.",aColorBlack, R.drawable.schopenhauer));
         quotes.add(new Quote("Schopenhauer","Los hombres vulgares sólo piensan en cómo pasar el tiempo. Un hombre inteligente procura aprovecharlo.",aColorBlack, R.drawable.schopenhauer));
+
+        quotes.add(new Quote("Sun Tzu","El supremo arte de la guerra es doblegar al enemigo sin luchar.",aColorWhite,R.drawable.suntzu));
+        quotes.add(new Quote("Sun Tzu","Triunfan aquellos que saben cuándo luchar y cuándo no.",aColorWhite,R.drawable.suntzu));
 
         quotes.add(new Quote("Voltaire","Buscamos la felicidad, pero sin saber dónde, como los borrachos buscan su casa, sabiendo que tienen una.",aColorWhite, R.drawable.voltaire));
         quotes.add(new Quote("Voltaire","¡Dios mío, líbrame de mis amigos! De los enemigos ya me encargo yo.",aColorWhite, R.drawable.voltaire));

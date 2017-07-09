@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Proverbio del día</string>
+    <string name="app_name">Proverbios del Día</string>
     <string name="btnQuote">Nuevo proverbio</string>
-    <string name="todos">Todos (Aleatorio)</string>
+    <string name="todos">Todos (al azar)</string>
     <string name="loading">Espera… Cargando… </string>
     <string name="close">Salir</string>
     <string name="title_activity_navigation_main2">Proverbio del día</string>

@@ -70,7 +70,7 @@ public class Splash2 extends Activity implements Runnable {
         switch (lang) {
 
             case "pt":
-                internalFrameLayout.setBackgroundResource(R.drawable.bootsplash_1280x720);
+                internalFrameLayout.setBackgroundResource(R.drawable.bootsplash_1280x720_pt);
                 break;
             case "en":
                 internalFrameLayout.setBackgroundResource(R.drawable.bootsplash_1280x720_en);
@@ -79,7 +79,7 @@ public class Splash2 extends Activity implements Runnable {
                 internalFrameLayout.setBackgroundResource(R.drawable.bootsplash_1280x720_es);
                 break;
             default:
-                internalFrameLayout.setBackgroundResource(R.drawable.bootsplash_1280x720);
+                internalFrameLayout.setBackgroundResource(R.drawable.bootsplash_1280x720_pt);
                 break;
         }
 
